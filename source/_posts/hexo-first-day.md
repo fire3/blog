@@ -22,6 +22,7 @@ sudo rm -f /usr/local/bin/hexo
 sudo npm install -g hexo-cli
 ```
 
+<!-- more -->
 
 ## 配置
 
