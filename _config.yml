@@ -3,16 +3,16 @@
 ## Source: https://github.com/hexojs/hexo/
 
 # Site
-title: Hexo
+title: fire3's notes
 subtitle:
 description:
-author: John Doe
+author: fire3
 language:
 timezone:
 
 # URL
 ## If your site is put in a subdirectory, set url as 'http://yoursite.com/child' and root as '/child/'
-url: http://yoursite.com
+url: http://fire3.crixmod.com
 root: /
 permalink: :year/:month/:day/:title/
 permalink_defaults:
@@ -68,5 +68,5 @@ theme: next
 ## Docs: http://hexo.io/docs/deployment.html
 deploy:
   type: git
-  repo: git@github.com:fire3/blog.git
-  branch: gh-pages
+  repo: git@github.com:fire3/fire3.github.io.git
+  branch: master
