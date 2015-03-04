@@ -1,6 +1,6 @@
 title: "折腾Hexo第一天"
 date: 2015-03-04 15:57:36
-tags:
+tags: "hexo"
 ---
 
 ## 安装
