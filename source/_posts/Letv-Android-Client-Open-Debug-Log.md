@@ -1,6 +1,6 @@
 title: "Letv安卓客户端打开调试选项"
 date: 2015-03-05 08:20:25
-tags: letv android
+tags: letv
 ---
 
 跟踪Letv安卓客户端Http链接最简单的方法，不是搭建什么代理服务器，不是什么抓包分析，而是直接利用Android客户端开发人员留下的调试接口！
