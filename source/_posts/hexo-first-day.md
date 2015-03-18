@@ -22,6 +22,14 @@ sudo rm -f /usr/local/bin/hexo
 sudo npm install -g hexo-cli
 ```
 
+初始化配置:
+
+``` bash
+hexo init blog
+cd blog
+sudo npm install
+```
+
 <!-- more -->
 
 ## 配置
@@ -51,3 +59,4 @@ $ git submodule add https://github.com/iissnan/hexo-theme-next themes/next
 ```
 theme: next
 ```
+
