@@ -1,6 +1,6 @@
 title: "vim submodules"
 date: 2015-03-23 16:33:54
-tags:[vim,git]
+tags: [vim,git]
 ---
 
 最近开始用submodule管理vim插件，但是有一个烦人的事情：
