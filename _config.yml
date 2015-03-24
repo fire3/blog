@@ -80,6 +80,7 @@ since: 2015
 # 菜单配置
 menu:
   home: /
+  categories: /categories
   archives: /archives
   tags: /tags
   #about: /about
@@ -89,6 +90,7 @@ menu:
 # 请将你的favicon放置在`hexo-site/source/`目录下。
 #favicon: /favicon.ico
 
+#scheme: Mist
 # 设置为`false`不显示`rss`链接
 # 留空，并且通过`hexo-site-feed`插件配置使用默认的feed
 # 设置成特定的`url`，适用于通过第三方服务定制feed的情况。
