@@ -70,7 +70,7 @@ theme: next
 ## Docs: http://hexo.io/docs/deployment.html
 deploy:
   type: git
-  repo: https://github.com/fire3/fire3.github.io.git
+  repo: git@github.com:fire3/fire3.github.io.git
   branch: master
 
 
