@@ -8,7 +8,8 @@ subtitle:
 description:
 author: fire3
 email: fire3@crixmod.com
-language: zh-CN
+language: zh-Hans
+#language: zh-CN
 timezone:
 
 # URL
@@ -108,7 +109,7 @@ icon_font: default
 
 # 代码高亮主题
 # available: normal | night | night eighties | night blue | night bright
-highlight_theme: normal
+highlight_theme: night
 
 creative_commons: by-nc-sa
 
