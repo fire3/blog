@@ -38,3 +38,9 @@ firewall-cmd --reload
 ``` bash
 service shadowsocks-libev start
 ```
+
+开机启动 
+
+```bash
+sudo systemctl enable shadowsocks-libev.service
+```
