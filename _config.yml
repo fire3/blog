@@ -1,19 +1,18 @@
 # Hexo Configuration
-## Docs: http://hexo.io/docs/configuration.html
+## Docs: https://hexo.io/docs/configuration.html
 ## Source: https://github.com/hexojs/hexo/
 
 # Site
-title: fire3's notes
+title: Hexo
 subtitle:
 description:
 author: fire3
-email: fire3@crixmod.com
-language: zh-Hans
+language:
 timezone:
 
 # URL
 ## If your site is put in a subdirectory, set url as 'http://yoursite.com/child' and root as '/child/'
-url: http://fire3.xyz
+url: http://www.fire3.xyz
 root: /
 permalink: :year/:month/:day/:title/
 permalink_defaults:
@@ -41,6 +40,7 @@ future: true
 highlight:
   enable: true
   line_number: true
+  auto_detect: false
   tab_replace:
 
 # Category & Tag
@@ -61,13 +61,12 @@ per_page: 10
 pagination_dir: page
 
 # Extensions
-## Plugins: https://github.com/hexojs/hexo/wiki/Plugins
-## Themes: https://github.com/hexojs/hexo/wiki/Themes
-# git clone https://github.com/iissnan/hexo-theme-next themes/next
-theme: next
+## Plugins: https://hexo.io/plugins/
+## Themes: https://hexo.io/themes/
+theme: yilia
 
 # Deployment
-## Docs: http://hexo.io/docs/deployment.html
+## Docs: https://hexo.io/docs/deployment.html
 deploy:
   type: git
   repo: git@github.com:fire3/fire3.github.io.git
