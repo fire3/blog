@@ -19,3 +19,11 @@ tags:
 * web/desc.xml - localisation file / app info (For web gui)
 * web/*app_name*.png - app icon for web gui
 * web/index.html - App web page for control.
+
+
+SKD Documents here: http://developer.mycloud.com/
+
+Download mksapkg: http://downloads.wdc.com/gpl/WDMyCloud_NAS_Apps_GPL_20150226.tar.gz
+
+Some very useful resources: https://ftp.anionix.ru/WDMyCloud/WDMyCloud-Gen2/
+
