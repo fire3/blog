@@ -153,12 +153,11 @@ EOF
 IPtables
 -----------------
 
-could add to rc.local
+could add to rc.local, remember change xxx.xxx.xxx.xxx to your shadowsocks server IP.
 ```
 iptables -t nat -N SHADOWSOCKS
-# 在 nat 表中创建新链
 
-iptables -t nat -A SHADOWSOCKS -d 45.32.248.14 -j RETURN
+iptables -t nat -A SHADOWSOCKS -d xxx.xxx.xxx.xxx -j RETURN
 
 iptables -t nat -A SHADOWSOCKS -d 0.0.0.0/8 -j RETURN
 iptables -t nat -A SHADOWSOCKS -d 10.0.0.0/8 -j RETURN
@@ -171,9 +170,6 @@ iptables -t nat -A SHADOWSOCKS -d 240.0.0.0/4 -j RETURN
 iptables -t nat -A SHADOWSOCKS -p tcp -j REDIRECT --to-ports 1080
 
 iptables -t nat -I PREROUTING -p tcp -j SHADOWSOCKS
-# 在 PREROUTING 链前插入 SHADOWSOCKS 链,使其生效
-
-iptables -t nat -A PREROUTING -p tcp -d 8.8.8.8 --dport 53 -j REDIRECT --to-port 1080  
 
 ```
 remember to chmod of rc.local
