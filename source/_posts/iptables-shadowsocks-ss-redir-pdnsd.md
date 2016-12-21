@@ -99,8 +99,8 @@ global {
 server {
         label=GoogleDNS;
         ip=8.8.8.8, 8.8.4.4;
-        timeout=30;
-        interval=30;
+        timeout=4;
+        interval=10m;
         uptest=ping;
         ping_timeout=50;
         purge_cache=off;
