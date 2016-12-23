@@ -24,7 +24,6 @@ ${var^PATTERN}: Convert to Uppercase
 ${var,PATTERN}: Convert to Lowercase
 ```
 
-
 数组
 ===========================
 
