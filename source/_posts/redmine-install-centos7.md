@@ -1,6 +1,6 @@
 title: redmine install centos7
 date: 2016-12-20 08:54:56
-tags:
+tags: [docker, redmine]
 ---
 
 first install docker and docker-compose:

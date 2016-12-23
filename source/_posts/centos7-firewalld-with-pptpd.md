@@ -1,8 +1,11 @@
 title: centos7 firewalld with pptpd
 date: 2016-09-09 07:19:23
-tags:
+tags: [linux]
 ---
 
+本文介绍centos7 pptpd的配置和相应的firewalld的配置。
+
+<!-- more -->
 
 Install pptpd with: 
 ```

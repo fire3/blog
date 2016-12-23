@@ -1,6 +1,6 @@
 title: "Hack bilibili for fun --- Episode 1"
 date: 2016-03-11 16:48:07
-tags:
+tags: [android]
 ---
 
 B站的视频虽说本人甚少参观，但是本着研究以及造福大众的学术态度，还是光顾并折腾了一番。

@@ -1,7 +1,11 @@
 title: compile aria2 for arm
 date: 2016-11-15 08:01:22
-tags:
+tags: [arm, linux, aria2]
 ---
+
+闲来无事试着给WD Mycloud编编软件试试。
+
+<!-- more -->
 
 准备编译环境
 ==================

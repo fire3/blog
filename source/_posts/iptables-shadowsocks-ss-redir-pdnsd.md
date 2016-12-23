@@ -1,10 +1,11 @@
 title: iptables shadowsocks ss-redir pdnsd
 date: 2016-12-21 20:09:29
-tags:
+tags: [shadowsocks]
 ---
 
 
 本文介绍在Linux服务器上使用Iptables配置透明tcp代理到ss服务器，并配合pdnsd将域名解析转发到google dns，避免dns污染。
+<!-- more -->
 Install shadowsocks-libev
 --------------------------------
 

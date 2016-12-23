@@ -1,6 +1,6 @@
 title: "Hack bilibili for fun --- Episode 2"
 date: 2016-03-11 16:48:07
-tags:
+tags: [android]
 ---
 
 链接URL一目了然后，需要弄清除URL的含义细节，许多字段都可以顾名思义，比如如下例子：
