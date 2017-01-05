@@ -123,3 +123,17 @@ make_book
 
 echo "book.pdf generated."
 ```
+
+使用这个脚本需要安装texlive里面的xelatex，并且安装相应的字体，脚本里面默认使用字体：
+
+```
+sudo apt install fonts-arphic-gkai00mp
+```
+
+可以使用的字体用如下命令查看
+
+```
+fc-list
+```
+
+注意选择中文字体。
